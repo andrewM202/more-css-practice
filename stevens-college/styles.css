@@ -1,1 +1,51 @@
 /* Add your CSS here */
+*:before,
+*:after,
+* {
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #;
+}
+
+h1 {
+  font-size: 4em;
+  padding-right: 20vw;
+  max-height: 30vh;
+}
+
+p {
+  font-size: 1.5em;
+  margin-left: 0em;
+}
+
+img {
+  max-height: 50vh;
+  width: 94vw;
+  margin: 0px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: firebrick;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  color: white;
+  margin: 30px;
+  width: 20vw;
+  height: 5vh;
+}
