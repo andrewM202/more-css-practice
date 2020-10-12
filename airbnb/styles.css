@@ -1,1 +1,125 @@
-/* Add your CSS here */
+*:before,
+*:after,
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 15vh;
+  background-image: url();
+  font-size: 1.3em;
+  padding-left: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer below */
+
+footer {
+  height: 20vh;
+}
+
+footer h2 {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex figure {
+  display: flex;
+  align-items: center;
+  height: 13vh;
+  width: calc(100vw / 3);
+  margin: 8px;
+  border: 3px solid rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+figure img {
+  height: 100%;
+}
+
+figure figcaption {
+  padding: 1vw;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer above */
+
+/* Form below */
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 15vh);
+  align-items: center;
+  height: 65vh;
+}
+
+input {
+  width: 100%;
+  height: 5vh;
+  padding: 5px;
+  font-size: 1.25em;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+}
+
+label {
+  font-size: 1.2em;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+
+form div:not(.check-out-input) {
+  padding-left: 8px;
+}
+
+form div:not(.check-in-input) {
+  padding-right: 8px;
+}
+
+div.where-input,
+div.guests-input,
+div.submit-button {
+  grid-column: 1 / 3;
+}
+
+.check-in-input input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.check-out-input input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+input[type="submit"] {
+  background-color: #F75570;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  height: 6vh;
+}
+
+
+
+
+/* Form above

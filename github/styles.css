@@ -4,10 +4,114 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
+/* Flex Containers Below */
+
+.flex-container-one {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18vh;
+  height: 50vh;
+  align-content: center;
+  justify-content: center;
+  background-color: #;
+}
+
+.flex-container-two {
+  display: flex;
+  flex-direction: row;
+  height: 32vh; /* Height is 100 - (margin-top + height of flex-container-one) */
+  justify-content: flex-start;
+}
+
+
+/* Flex Containers Above */
+
+
+/* Flex Items Below */
+
+
+.flex-item-center {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.flex-item-left {
+  justify-content: flex-start;
+  align-content: center;
+  display: flex;
+  flex: 1;
+}
+
+header {
+  margin-bottom: 2vh;
+}
+
+p {
+  white-space: pre-line;
+  text-align: center;
+  font-size: 2em;
+  color: #879698;
+  margin-bottom: 2vh;
+}
+
+section {
+  height: 50px;
+  flex-grow: 50px;
+}
+
+figure {
+
+}
+
+/* Flex Items Above */
+
+/* Flex-item child elements Below */
 
 header h1 {
-  display: inline-block;
-  margin-left: 5vw;
+  white-space: pre-line;
+  text-align: center;
+  font-weight: normal;
+  font-size: 4em;
+  padding: 15px;
 }
+
+section a {
+  padding-left: 1.6vw;
+  padding-right: 1.6vw;
+  color: #4960C9;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+
+figcaption p {
+  white-space: normal;
+  color: black;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 10px;
+  line-height: 1.7;
+  margin-right: 5vw;
+}
+
+figcaption h3 {
+  font-size: 1.8em;
+  font-weight: normal;
+  padding: 10px 10px 0 10px;
+}
+
+p a {
+  text-decoration: none;
+  color: #4960C9;
+}
+
+figure img {
+  height: 150px;
+}
+
+/* Flex-item child elements above */
